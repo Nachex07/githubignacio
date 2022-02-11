@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Zen+Antique&display=swap');
+
+
+body {
+    background-image: url(estilos.css);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    
+  }
+
+  form {
+      width: 350px;
+      background:rgba(0, 0, 0, 0.4);
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin-top: 20px;
+      border-radius: 7px;
+      float: left;
+      margin: 50px;
+      
+  }
+
+  h2 {
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      font-size: 35px;
+      margin-bottom: 20px;
+
+  }
+
+  input, textarea  {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 7px;
+      box-sizing: border-box;
+      font-size: 17px;
+      border: none;
+      font-family: 'Noto Serif', serif;
+  }
+
+  textarea {
+      min-height: 100px;
+      max-height: 200px;
+      max-width: 100%;
+  }
+
+  #administracion{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0%;
+    margin-top: 0;
+  }
+
+   #comboCategoria {
+     width: 100%;
+     padding: 2%;
+    font-size: 17px;
+    font-family: 'Noto Serif',serif;
+    
+  }
+
+
+  #boton {
+      background: #31384A;
+      color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+  }
+
+  #boton:hover {
+
+        font-style: italic;
+        font-size: 19px;
+  }
+
+  @media (max-width:480px) {
+      form{
+          width: 100%;
+      }
+
+      
+  }
+  
+  h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      background:rgba(0, 0, 0, 0.4);
+      margin-top: 20px;
+  }
+
+  header p {
+    font-family: 'Noto Serif', serif;
+    font-size:      40px;
+    color:          black;
+    text-align: center;
+
+}
+
+
+
